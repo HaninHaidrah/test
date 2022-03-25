@@ -1,0 +1,62 @@
+/* Responsive layout - 
+responsive for mobile phones:
+ */
+@media screen and (max-width: 600px) {
+  .divRoute {
+    width: 60rem;
+  }
+  .divRoute img {
+    width: 259px;
+    height: 254px;
+    padding-right: 5rem;
+    padding-top: 3rem;
+  }
+  .card {
+    bottom: 18rem;
+    left: 2rem;
+    max-width: 18rem;
+    max-height: 18rem;
+  }
+  .card button {
+    position: absolute;
+    bottom: 0rem;
+    right: 20rem;
+    width: 12rem;
+  }
+  .card-body {
+    overflow: scroll;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .divRoute {
+    width: 60rem;
+  }
+  .divRoute img {
+    width: 259px;
+    height: 254px;
+    padding-right: 5rem;
+    padding-top: 3rem;
+  }
+  .card {
+    bottom: 18rem;
+    left: 2rem;
+    max-width: 18rem;
+    max-height: 18rem;
+  }
+  .card button {
+    position: absolute;
+    bottom: 0rem;
+    right: 20rem;
+    width: 12rem;
+  }
+  .card-body {
+    overflow: scroll;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+  .divRoute img {
+    padding-left: 5rem;
+    padding-top: 0rem;
+  }
+}
