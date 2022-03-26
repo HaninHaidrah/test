@@ -64,7 +64,7 @@ const EditModel = ({ showModel, setShowModel }) => {
               <Form.Label>choose other sector...</Form.Label>
               <Form.Select id="sector" name="sector" required>
                 {sectors.map((el) => {
-                  return <option>{el.sectorType}</option>;
+                  return <option value={el.id}>{el.sectorType}</option>;
                 })}
               </Form.Select>
             </Form.Group>

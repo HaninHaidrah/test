@@ -29,6 +29,7 @@ function Form() {
       sectorId: e.target.sector.value,
       agreeToterms: document.getElementById("cheked").checked,
     };
+    console.log(reqBody,"RRRRRRRRRRRRRRRR")
     let response = await axios.post(
       `http://localhost:8000/api/v1/user`,
       reqBody
@@ -67,7 +68,7 @@ function Form() {
           <div className="col-75">
             <select id="sector" name="sector" required>
               {sectors.map((el,index) => {
-                return <option key={index} defaultValue={el.id} value={el.id}>{el.sectorType}</option>;
+                return <option key={index} defaultValue={el.sectorType} value={el.id}>{el.sectorType}</option>;
               })}
             </select>
           </div>

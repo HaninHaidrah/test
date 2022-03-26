@@ -17,6 +17,7 @@ const SectorCard = () => {
       .then((response) => {
         setSectorData(response.data);
         window.localStorage.setItem("sector", JSON.stringify(response.data));
+        console.log(sectorData,response.data);
 
       });
   }, []);
